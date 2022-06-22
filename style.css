@@ -71,12 +71,12 @@ a {
 
 .description {
     padding: 1em;
-    width: max(28%, 10em);
+    width: 20em;
 }
 
 .image {
     padding: 1em;
-    max-width: 30%;
+    max-width: 25em;
 }
 
 h1 {
@@ -161,7 +161,7 @@ img {
 
 .box-accent {
     width: 60%;
-    padding: 3% 10%;
+    padding: 2em 5em;
     background-color: var(--clr-primary-400);
     color: var(--clr-primary-100);
     border-radius: 0.5em;
