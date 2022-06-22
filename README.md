@@ -2,4 +2,4 @@
 
 A practice webpage built from the guided lesson at [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page). This project features HTML and CSS using flexbox techniques to practice beginning webpage styling and layout.
 
-All modern browsers should support [this project's webpage]()
+All modern browsers should support [this project's webpage](https://zach39908.github.io/odin-landing-page/)
