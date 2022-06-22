@@ -167,7 +167,7 @@ img {
 }
 
 .box-accent {
-    width: 60%;
+    width: 60em;
     padding: 2em 5em;
     background-color: var(--clr-primary-400);
     color: var(--clr-primary-100);
