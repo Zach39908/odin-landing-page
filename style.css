@@ -135,8 +135,15 @@ img {
 /* section.bg-dark-accent */
 
 .bg-dark-accent {
-    padding: 8em 25em;
+    padding: 8em 0;
     background-color: var(--clr-primary-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    width: 55em;
 }
 
 .quote {
