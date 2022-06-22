@@ -23,6 +23,16 @@ header,
     background-color: var(--clr-primary-700);
 }
 
+.btn {
+    padding: 0.4em 1.825em;
+    color: var(--clr-primary-100);
+    font-weight: 600;
+    background-color: var(--clr-primary-400);
+    border: none;
+    border-radius: 0.35em;
+    cursor: pointer;
+}
+
 /* Header */
 
 .logo {
@@ -44,7 +54,7 @@ a {
 /* section.bg-dark */
 
 .bg-dark {
-    padding-top: 3em;
+    padding: 4em 0;
 }
 
 h1 {
@@ -62,4 +72,54 @@ h1 {
 
 img {
     width: 40%;
+}
+
+/* section.bg-light */
+
+.bg-light {
+    padding-bottom: 4em;
+}
+
+.bg-light > h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--clr-primary-700);
+    text-align: center;
+}
+
+.card {
+    width: 10em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 90%;
+    height: 8em;
+    border: 3px solid var(--clr-primary-400);
+    border-radius: 0.75em;
+}
+
+.card > p {
+    margin: 0.25em;
+}
+
+/* section.bg-dark-accent */
+
+.bg-dark-accent {
+    padding: 5% 25%;
+    background-color: var(--clr-primary-200);
+}
+
+.quote {
+    margin: 0;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 900;
+    text-align: right;
 }
