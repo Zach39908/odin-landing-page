@@ -24,7 +24,8 @@ header,
 }
 
 .btn {
-    padding: 0.4em 1.825em;
+    width: 8em;
+    padding: 0.4em 1.5em;
     color: var(--clr-primary-100);
     font-weight: 600;
     background-color: var(--clr-primary-400);
@@ -35,14 +36,23 @@ header,
 
 /* Header */
 
+header {
+    padding: 0.5em 10em;
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     font-size: 1.25rem;
+    font-weight: 600;
     color: var(--clr-primary-100);
 }
 
 .links {
     margin: 0;
     list-style-type: none;
+    display: flex;
+    gap: 1.5em;
 }
 
 a {
@@ -54,7 +64,19 @@ a {
 /* section.bg-dark */
 
 .bg-dark {
-    padding: 4em 0;
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    padding: 1em;
+    width: max(28%, 10em);
+}
+
+.image {
+    padding: 1em;
+    max-width: 30%;
 }
 
 h1 {
@@ -71,20 +93,24 @@ h1 {
 }
 
 img {
-    width: 40%;
+    width: 100%;
 }
 
 /* section.bg-light */
-
-.bg-light {
-    padding-bottom: 4em;
-}
 
 .bg-light > h2 {
     font-size: 2rem;
     font-weight: 900;
     color: var(--clr-primary-700);
     text-align: center;
+    align-items: center;
+}
+
+.cards {
+    padding: 2em 0 7em 0;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
 }
 
 .card {
@@ -109,7 +135,7 @@ img {
 /* section.bg-dark-accent */
 
 .bg-dark-accent {
-    padding: 5% 25%;
+    padding: 8em 25em;
     background-color: var(--clr-primary-200);
 }
 
@@ -127,7 +153,7 @@ img {
 /* section.bg-light-accent */
 
 .bg-light-accent {
-    padding: 5% 10%;
+    padding: 5em 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +161,7 @@ img {
 
 .box-accent {
     width: 60%;
-    padding: 1em 4em;
+    padding: 3% 10%;
     background-color: var(--clr-primary-400);
     color: var(--clr-primary-100);
     border-radius: 0.5em;
@@ -147,12 +173,12 @@ img {
 
 .text > h2 {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .text > p {
     margin: 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-style: italic;
 }
 
@@ -163,7 +189,7 @@ img {
 /* footer */
 
 footer {
-    padding: 2% 0;
+    padding: 1em 0;
     background-color: var(--clr-primary-700);
     color: var(--clr-primary-100);
     display: flex;
